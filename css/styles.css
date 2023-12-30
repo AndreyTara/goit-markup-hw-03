@@ -216,7 +216,8 @@ body {
 }
 
 .hero-container {
-	padding: 188px 0 188px;
+	padding-top: 188px;
+	padding-bottom: 188px;
 }
 
 .hero-title {
