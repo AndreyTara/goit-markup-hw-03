@@ -369,12 +369,11 @@ body {
 
 .footer {
 	background-color: #2E2F42;
-}
-
-.footer-container {
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
+
+.footer-container {}
 
 .footer-logo {
 	display: inline-block;
