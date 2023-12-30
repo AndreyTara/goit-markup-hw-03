@@ -188,7 +188,7 @@ body {
 }
 
 .header-address {
-	/* padding: 24px 0; */
+	padding: 24px 0;
 }
 
 .header-address-list {
@@ -203,7 +203,7 @@ body {
 
 .header-address-link {
 	color: #434455;
-	padding: 24px 0;
+	/* padding: 24px 0; */
 	white-space: nowrap;
 }
 
