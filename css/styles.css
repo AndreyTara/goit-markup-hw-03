@@ -377,10 +377,10 @@ body {
 }
 
 .footer-logo {
-	display: block;
+	display: inline-block;
 	color: #4D5AE5;
 	line-height: 1.17;
-	margin-bottom: 18px;
+	margin-bottom: 16px;
 }
 
 .footer-logo-white {
