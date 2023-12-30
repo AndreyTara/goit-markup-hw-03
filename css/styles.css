@@ -66,6 +66,7 @@ body {
 
 .section {
 	padding: 120px 0;
+	margin: 0 auto;
 }
 
 /* треба видалити */
@@ -89,7 +90,6 @@ body {
 	margin: -1px;
 	border: 0;
 	padding: 0;
-	white-space: nowrap;
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
 	overflow: hidden;
@@ -139,9 +139,11 @@ body {
 
 .header-menu {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 	/* margin-right: 332px; */
-	padding: 24px 0;
+	/* padding: 24px 0; */
 }
 
 .header-menu-logo {
@@ -155,17 +157,20 @@ body {
 
 .header-menu-list {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 40px;
 }
 
-.header-menu-item:not(:last-child) {
+.header-menu-item {
+	white-space: nowrap;
 	/* margin-right: 40px; */
 }
 
 .header-menu-link {
 	font-weight: 500;
 	color: #2E2F42;
-	padding: 24px 0;
+	/* padding: 24px 0; */
+
 }
 
 
@@ -182,11 +187,12 @@ body {
 }
 
 .header-address {
-	padding: 24px 0;
+	/* padding: 24px 0; */
 }
 
 .header-address-list {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 40px;
 }
 
@@ -197,6 +203,7 @@ body {
 .header-address-link {
 	color: #434455;
 	padding: 24px 0;
+	white-space: nowrap;
 }
 
 .header-address-link:hover {
@@ -272,7 +279,7 @@ body {
 
 .skills-item {
 	text-align: left;
-	flex-basis: calc((100% - 3 * 24px) / 4)
+	width: calc((100% - 3 * 24px) / 4);
 }
 
 .skills-subtitle {
@@ -295,6 +302,9 @@ body {
 
 .team-list {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	gap: 24px;
 }
 
@@ -332,6 +342,8 @@ body {
 .portfolio-list {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 	row-gap: 48px;
 	column-gap: 24px;
 }
