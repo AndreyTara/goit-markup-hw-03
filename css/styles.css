@@ -64,9 +64,14 @@ body {
 	background-color: inherit;
 }
 
-.pad-other {
+.section {
 	padding: 120px 0;
 }
+
+/* треба видалити */
+/* .pad-other {
+	padding: 120px 0;
+} */
 
 .logo {
 	font-family: 'Raleway', sans-serif;
