@@ -213,12 +213,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	background-color: #2E2F42;
-}
-
-.hero-container {
 	padding-top: 188px;
 	padding-bottom: 188px;
 }
+
+.hero-container {}
 
 .hero-title {
 	font-size: 56px;
