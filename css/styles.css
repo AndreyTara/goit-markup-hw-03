@@ -170,7 +170,7 @@ body {
 .header-menu-link {
 	font-weight: 500;
 	color: #2E2F42;
-	/* padding: 24px 0; */
+	padding: 24px 0;
 
 }
 
@@ -372,7 +372,8 @@ body {
 }
 
 .footer-container {
-	padding: 100px 0;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .footer-logo {
