@@ -37,6 +37,7 @@ body {
 a {
 	text-decoration: none;
 	color: inherit;
+	display: inline-block;
 }
 
 address {
@@ -65,10 +66,6 @@ body {
 
 .pad-other {
 	padding: 120px 0;
-}
-
-.pad-footer {
-	padding: 100px 0;
 }
 
 .logo {
@@ -355,6 +352,10 @@ body {
 
 .footer {
 	background-color: #2E2F42;
+}
+
+.footer-container {
+	padding: 100px 0;
 }
 
 .footer-logo {
